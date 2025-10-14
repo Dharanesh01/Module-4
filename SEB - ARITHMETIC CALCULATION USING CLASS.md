@@ -35,11 +35,42 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
+Reg.No: 212222060174
+Name: Pavithra.S
 
+class cse:
+    def __init__(self, a, b):
+        self.a=a
+        self.b=b
+    def mod(self):
+        return self.a%self.b
+    def div(self):
+        return self.a//self.b
 
+a=int(input())
+b=int(input())
+obj=cse(a, b)
+obj.mod()
+obj.div()
+choice=1
+while choice!=0:
+    choice=int(input())
+    if choice==1:
+        print("Result: ", obj.mod())
+    elif choice==2:
+        print("Result: ", obj.div())
+    else:
+        print("Exiting!")
+
+print()
 
 ```
 
 ### OUTPUT
 
+<img width="678" height="448" alt="image" src="https://github.com/user-attachments/assets/4a94a872-2aee-447c-b687-7ebf4a2fc5eb" />
+
+
 ### RESULT
+
+Thus the Python program to perform addition and division operations using a class was implemented and executed successfully.
