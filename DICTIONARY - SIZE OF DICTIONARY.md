@@ -22,24 +22,31 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 ### PROGRAM
 
 ```
-# REGNO:-212222060174
-# Name:-Pavithra.S
-import math
-class umbrella:
-    def rain(self,r):
-        res=math.pi * r * r
-        print(f"Area of circle: {res:.2f}")
-r=int(input())
-u=umbrella()
-u.rain(r)
+#Reg.No-212222060174
+#Name-Pavithra.S
+
+from sys import getsizeof
+dic1 = {"A": 1, "B": 2, "C": 3}
+dic2 = {"Geek1": "Raju", "Geek2": "Nikhil", "Geek3": "Deepanshu"}
+dic3 = {1: "Lion", 2: "Tiger", 3: "Fox", 4: "Wolf"}
+result1 = getsizeof(dic1)
+result2 = getsizeof(dic2)
+result3 = getsizeof(dic3)
+print("Size of dic1: ", result1, "bytes", sep='')
+print("Size of dic2: ", result2, "bytes", sep='')
+print("Size of dic3: ", result3, "bytes", sep='')
 
 ```
 
 ### OUTPUT
 
-<img width="799" height="172" alt="image" src="https://github.com/user-attachments/assets/4155e227-3964-4d14-84d3-ed215f80b461" />
+<img width="818" height="250" alt="image" src="https://github.com/user-attachments/assets/8d0a8885-a385-40f3-9b9b-2deb8f0c60b6" />
 
 
 ### RESULT
 
-Thus the python program for calculating the area of a circle was implemented and executed successfully.
+Thus, a Python program to print the size of a dictionary using getsizeof() from the sys module are verified
+
+
+
+
