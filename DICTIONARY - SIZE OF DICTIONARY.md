@@ -22,15 +22,24 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 ### PROGRAM
 
 ```
-#Reg.No
-#Name
-#Add Your Code Here
-
-
+# REGNO:-212222060174
+# Name:-Pavithra.S
+import math
+class umbrella:
+    def rain(self,r):
+        res=math.pi * r * r
+        print(f"Area of circle: {res:.2f}")
+r=int(input())
+u=umbrella()
+u.rain(r)
 
 ```
 
 ### OUTPUT
 
+<img width="799" height="172" alt="image" src="https://github.com/user-attachments/assets/4155e227-3964-4d14-84d3-ed215f80b461" />
+
 
 ### RESULT
+
+Thus the python program for calculating the area of a circle was implemented and executed successfully.
