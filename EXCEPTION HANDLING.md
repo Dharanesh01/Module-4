@@ -22,8 +22,6 @@ Terminate the program.
 ### PROGRAM
 
 ```
-Reg.No-212222060174
-Name-Pavithra.S
 
 user_input = input()
 grades_str = user_input.split(',')
