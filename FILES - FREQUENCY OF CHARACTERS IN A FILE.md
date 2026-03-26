@@ -31,9 +31,6 @@ To write a Python program that reads a file and counts the frequency of each cha
 
 ```
 
-Reg.No: 212222060174
-Name:Pavithra.S
-
 from collections import defaultdict
 def create_file(file_path, content):
     with open(file_path, 'w') as file:
